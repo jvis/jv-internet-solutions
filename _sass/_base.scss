@@ -23,6 +23,15 @@ body {
     -webkit-text-size-adjust: 100%;
 }
 
+section.success {
+    background: $scheme-green;
+}
+header {
+    background: $scheme-yellow;
+}
+.navbar-default {
+    background: $scheme-blue;
+}
 
 
 /**

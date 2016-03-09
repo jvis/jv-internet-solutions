@@ -6,12 +6,18 @@
 
 hr.star-light.paw:after,
 hr.star-primary.paw:after {
-  content: "\f1b0";
+    content: "\f1b0";
 }
 
 hr.star-light.bullhorn:after,
 hr.star-primary.bullhorn:after {
-  content: "\f0a1";
+    content: "\f0a1";
+}
+
+hr.star-light.cubes:after,
+hr.star-primary.cubes:after {
+    background: $scheme-green;
+    content: "\f1b3";
 }
 
 .spinner {}
@@ -110,6 +116,13 @@ hr.star-primary.bullhorn:after {
     }
 }
 
+header {
+    img.mac-mockup {
+        position: relative;
+        left: -55px;
+    }
+}
+
 header .intro-text {
     span {
         display: block;
@@ -117,8 +130,8 @@ header .intro-text {
     }
     
     .name {
-        background: url("../img/logo-white-large.png") no-repeat center center transparent;
-        background-size: 100%;
+        /**background: url("../img/logo-white-750px.png") no-repeat center center transparent;
+        background-size: 100%;**/
         max-width: 750px;
         margin: 0 auto;
         margin-bottom: 10px;
@@ -140,7 +153,7 @@ header .intro-text {
 .navbar {
     
     .navbar-brand.with-logo {
-        background: url("../img/logo-small-white.png") no-repeat center center transparent;
+        background: url("../img/logo-white-400px.png") no-repeat center 5px transparent;
         text-indent: -9999px;
         height: 40px;
         width: 400px;

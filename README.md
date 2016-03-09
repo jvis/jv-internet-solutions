@@ -1,1 +1,1 @@
-# [Max's Mutts](http://maxsmutts.com/) - Dog walking services for the Sydney CBD
+# [JV Internet Solutions](http://maxsmutts.com/) - Software development with a focus on innovative, leading practice solutions to problems
